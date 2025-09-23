@@ -22,7 +22,7 @@ nav a:hover{opacity:1;color:var(--primary)}
 /* Hero (About) */
 #about{display:grid;gap:2.25rem;align-items:center}
 #about h1{font-size:clamp(2.25rem,4.5vw,3.25rem);line-height:1.1;margin-bottom:.5rem;position:relative}
-#about h1::after{content:"";position:absolute;left:0;bottom:-8px;width:88px;height:6px;border-radius:6px;background:linear-gradient(90deg,var(--primary),var(--accent))}
+#about h1::after{content:"";position:absolute;left:0;bottom:-8px;width:200px;height:6px;border-radius:6px;background:linear-gradient(90deg,var(--primary),var(--accent))}
 #about p{color:var(--muted);max-width:70ch}
 /* Tagline chip (first paragraph) */
 #about p:first-of-type em{display:inline-block;padding:.5rem .9rem;border-radius:999px;background:color-mix(in oklab, var(--primary) 12%, var(--surface));border:1px solid var(--border);color:var(--primary);font-style:normal;font-weight:700;box-shadow:var(--shadow)}
@@ -71,6 +71,7 @@ nav a:hover{opacity:1;color:var(--primary)}
 /* Responsive layout adjustments */
 @media (min-width:720px){
   #projects{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+  #projects h2{grid-column:1/-1}
   #about{grid-template-columns:1.2fr .8fr}
   #about > h1,#about > p{grid-column:1}
   #about > img{grid-column:2;justify-self:end}
