@@ -64,7 +64,7 @@ For a detailed explanation of the project’s inner workings, see:
 
 ### 🔧 Prerequisites
 - A modern web browser (Chrome, Edge, Firefox, Safari)  
-- Git (optional, for cloning)  
+- Git (for cloning)  
 - Visual Studio Code (recommended, with the **Live Server** extension)  
 
 ---
